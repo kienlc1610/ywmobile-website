@@ -1,0 +1,55 @@
+.company-bg {
+    height: 200px;
+}
+
+.tech-bg {
+    position: relative;
+    bottom: 0;
+    height: 200px;
+    background-image: url('../../img/tech-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(40, 0, 0);
+    padding: 0;
+    visibility: visible;
+}
+
+.person-bg {
+    position: relative;
+    bottom: 0;
+    height: 200px;
+    background-image: url('../../img/person-bg.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(40, 0, 0);
+    padding: 0;
+    visibility: visible;
+}
+
+.car-road-bg {
+    position: relative;
+    bottom: 0;
+    height: 200px;
+    background-image: url('../../img/car-road.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(40, 0, 0);
+    padding: 0;
+    visibility: visible;
+}
+
+.car-bg {
+    position: relative;
+    bottom: 0;
+    height: 200px;
+    background-image: url('../../img/car-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(40, 0, 0);
+    padding: 0;
+    visibility: visible;
+}
