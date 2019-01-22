@@ -63,3 +63,7 @@ li.active > a.custom-nav-item-link, .active {
   padding: 250px 125px 300px;
   visibility: visible;
 }
+
+.sm-size {
+  width: 100px;
+}
