@@ -31,9 +31,9 @@
 .car-road-bg {
     position: relative;
     bottom: 0;
-    height: 200px;
+    height: 20rem;
     background-image: url('../../img/road.jpg');
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(40, 0, 0);
@@ -54,7 +54,23 @@
     visibility: visible;
 }
 
-
 .btn-dowload-ci {
     background-color: rgb(237, 125, 49) !important;
-  }
+}
+
+.txt-road-section {
+    font-family: 'Bradley Hand ITC';
+}
+
+.text-road-orange {
+    color: rgb(237, 125, 49) !important;
+}
+
+.short-description>p {
+    color: #d5665b !important;
+    padding-left: 21rem;
+}
+
+.short-description > p:first-child {
+    padding-left: 0;
+}

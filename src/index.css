@@ -1,5 +1,12 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~animate.css/animate.min.css';
+@font-face{
+  font-family: 'Bradley Hand ITC';
+  font-size: normal;
+  font-weight: 400;
+  src: url('./fonts/BRADHI.ttf');
+
+}
 
 * {
   font-family: ABeeZee;
@@ -14,8 +21,12 @@ body {
   color: rgb(255, 192, 0) !important;
 }
 
+.text-color-sky {
+  color: #E5ECF2  !important;
+}
+
 .text-color-orange {
-  color: rgb(255, 106, 0) !important;
+  color: #ffb100 !important;
 }
 
 .navbar-brand:hover {
