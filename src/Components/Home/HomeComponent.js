@@ -1,8 +1,32 @@
 import React, { Component } from 'react';
 import './HomeComponent.css';
 import logo from '../../img/logo.png';
+import $ from 'jquery';
 
 class HomeComponent extends Component {
+  componentDidMount() {
+    console.log(this.props)
+    $('.slogan').textillate({
+      loop: false,
+      in: {
+        effect: 'fadeInLeftBig',
+        delayScale: 1.5,
+        delay: 50
+      },
+      callback: function () {
+        $('.slogan-two').css('display', 'block');
+        $('.slogan-two').textillate({
+          loop: false,
+          in: {
+            effect: 'fadeInLeftBig',
+            delayScale: 1.5,
+            delay: 50,
+          }
+        });
+      }
+    });
+  }
+  
   render() {
     return (
       <div className="HomeComponent">
@@ -11,7 +35,7 @@ class HomeComponent extends Component {
             <div className="row">
               <img className="rounded mx-auto d-block" src={logo} alt="YWMobile Logo" />
             </div>
-            <div className="row mx-auto">
+            <div className="row d-flex flex-column justify-content-center">
               <h1 className="text-center mx-auto text-color slogan">
                 <ul className="texts">
                   <li>We are ABCD by sincerity</li>

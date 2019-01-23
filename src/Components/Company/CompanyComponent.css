@@ -66,11 +66,8 @@
     color: rgb(237, 125, 49) !important;
 }
 
-.short-description>p {
+.short-description p {
     color: #d5665b !important;
-    padding-left: 21rem;
-}
-
-.short-description > p:first-child {
-    padding-left: 0;
+    font-weight: 400;
+    font-size: larger;
 }

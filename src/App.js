@@ -3,7 +3,6 @@ import Header from './Components/Header/HeaderComponent';
 import Footer from './Components/Footer/FooterComponent';
 import Home from './Components/Home/HomeComponent';
 import CompanyComponent from './Components/Company/CompanyComponent';
-import $ from 'jquery';
 import './App.css';
 import ScrollUpButton from "react-scroll-up-button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,29 +11,6 @@ import {connect} from 'react-redux'
 
 
 class App extends Component {
-  componentDidMount() {
-    console.log(this.props)
-    $('.slogan').textillate({
-      loop: false,
-      in: {
-        effect: 'fadeInLeftBig',
-        delayScale: 1.5,
-        delay: 50
-      },
-      callback: function () {
-        $('.slogan-two').css('display', 'block');
-        $('.slogan-two').textillate({
-          loop: false,
-          in: {
-            effect: 'fadeInLeftBig',
-            delayScale: 1.5,
-            delay: 50,
-          }
-        });
-      }
-    });
-  }
-
   shouldComponentUpdate() {
     console.log(this.props);
     return true;

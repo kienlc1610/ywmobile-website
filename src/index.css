@@ -70,6 +70,7 @@ li.active > a.custom-nav-item-link, .active {
   background-image: url('./img/example-bg.png');
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-color: rgb(40, 0, 0);
   padding: 250px 125px 300px;
   visibility: visible;

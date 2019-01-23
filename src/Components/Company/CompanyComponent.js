@@ -45,21 +45,20 @@ export default class CompanyComponent extends Component {
                 <h1 className="text-color-orange txt-road-section text-center">Ahead</h1>
                 <h1 className="text-road-orange text-center px-2"> A B C D S</h1>
                 <h1 className="text-color-orange txt-road-section text-center">Star, Service</h1>
-                <h1 className="text-color-orange txt-road-section text-center">Information Technology</h1>
+                <h1 className="text-color-orange txt-road-section text-center px-2">Information Technology</h1>
               </div>
               <div className="d-flex flex-column justify-content-center my-auto short-description">
-                  <div className="row mx-auto">
-                    <div className="col-2 pr-0">
-                      <p className="text-center mb-0">In YWMobile ...</p>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <p className="text-right mb-0">In YWMobile ...</p>
                     </div>
-                    <div className="col-6 pl-0 pr-5">
-                      <p className="text-center mb-0">there are people to make the world to go together</p>
+                    <div className="col-md">
+                      <p className="text-left mb-0">there are people to make the world to go together</p>
+                      <p className="text-justify mb-0">We pursue happy & energic life with working</p>
+                      <p className="text-justify mb-0">We run sincerely for the goal to achieve</p>
+                      <p className="text-justify mb-0">Our mind is always opened for communication</p>
                     </div>
                   </div>
-                  <p className="text-center mb-0">In YWMobile ...  there are people to make the world to go together</p>
-                  <p className="text-justify mb-0">We pursue happy & energic life with working</p>
-                  <p className="text-justify mb-0">We run sincerely for the goal to achieve</p>
-                  <p className="text-justify mb-0">Our mind is always opened for communication</p>
               </div>
             </div>
           </div>
