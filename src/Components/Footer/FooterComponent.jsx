@@ -22,9 +22,38 @@ class FooterComponent extends Component {
           <div className="row ml-3">
             <ul className="nav flex-column footer-company-info">
               <li>
-                <span className="text-secondary">
-                  Address:
-            </span>
+                <div className="row">
+                  <div className="col-md-auto">
+                    <span className="text-secondary">Address:</span>
+                  </div>
+                  <div className="col ml-2">
+                    <div className="row">
+                      <div className="col-auto">
+                        <p className="text-secondary">HQ</p>
+                      </div>
+                      <div className="row">
+                        <p className="text-secondary">#301, Yoondo-building, 7, Yonggu-daero 2790beon-gil, Suji-gu, Yonging-si, Gyeonggi-do, Korea</p>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-auto">
+                        <p className="text-secondary">HQ</p>
+                      </div>
+                      <div className="row">
+                        <p className="text-secondary">#301, Yoondo-building, 7, Yonggu-daero 2790beon-gil, Suji-gu, Yonging-si, Gyeonggi-do, Korea</p>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-auto">
+                        <p className="text-secondary">HQ</p>
+                      </div>
+                      <div className="row">
+                        <p className="text-secondary">#301, Yoondo-building, 7, Yonggu-daero 2790beon-gil, Suji-gu, Yonging-si, Gyeonggi-do, Korea</p>
+                      </div>
+                    </div>
+                    <div className="w-100"></div>
+                  </div>
+                </div>
               </li>
               <li>
                 <span className="text-secondary">
