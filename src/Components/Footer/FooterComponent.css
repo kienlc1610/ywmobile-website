@@ -1,3 +1,7 @@
 footer {
     position: absolute;
 }
+
+.border-left-solid { 
+    border-right: 1px solid;
+}

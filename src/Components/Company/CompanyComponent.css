@@ -2,10 +2,10 @@
     height: 200px;
 }
 
-.tech-bg {
+.third-section-bg {
     position: relative;
     bottom: 0;
-    height: 200px;
+    height: 17rem;
     background-image: url('../../img/tech-bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -15,10 +15,10 @@
     visibility: visible;
 }
 
-.person-bg {
+.four-section-bg {
     position: relative;
     bottom: 0;
-    height: 200px;
+    height: 17rem;
     background-image: url('../../img/person-bg.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -28,11 +28,11 @@
     visibility: visible;
 }
 
-.car-road-bg {
+.five-section-bg {
     position: relative;
     bottom: 0;
-    height: 20rem;
-    background-image: url('../../img/road.jpg');
+    height: 32rem;
+    background-image: url('../../img/text-road.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,10 +41,23 @@
     visibility: visible;
 }
 
-.car-bg {
+.first-section-bg{
     position: relative;
     bottom: 0;
-    height: 200px;
+    height: 17rem;
+    background-image: url('../../img/Logo-YW.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(40, 0, 0);
+    padding: 0;
+    visibility: visible;
+}
+
+.second-section-bg {
+    position: relative;
+    bottom: 0;
+    height: 17rem;
     background-image: url('../../img/car-bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -70,4 +83,8 @@
     color: #d5665b !important;
     font-weight: 400;
     font-size: larger;
+}
+
+.last-section {
+    min-height: 20rem;
 }

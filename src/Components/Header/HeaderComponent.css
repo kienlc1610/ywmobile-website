@@ -1,0 +1,31 @@
+.dropdown-item {
+    display: inline;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: initial;
+}
+
+.navbar-nav .show>.nav-link {
+    color: #A0A0A0 !important;
+}
+
+.navbar-nav .show>.active {
+    color: rgb(255, 192, 0) !important;
+}
+
+.navbar-nav .active>.nav-link {
+    color: rgb(255, 192, 0) !important;
+}
+
+.custom-nav-dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.nav-qa-header {
+    background-color: #f5f5f5;
+    padding-top: 0;
+}
+
+.qa-header {
+    height: 8rem;
+}

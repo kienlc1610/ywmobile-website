@@ -19,6 +19,7 @@ import * as serviceWorker from './serviceWorker';
 import jquery from 'jquery';
 import '../node_modules/bootstrap/dist/js/bootstrap';
 import '../node_modules/popper.js/dist/popper';
+import '../node_modules/react-bootstrap/dist/react-bootstrap'
 
 window.$ = window.jQuery = jquery;
 /* Jquery Plugin Start */
@@ -39,11 +40,8 @@ WebFont.load({
 });
 
 ReactDOM.render(( < HashRouter >
-            <
-            App / >
-            <
-            /HashRouter>), document.getElementById('root'));
-
+            <App/>
+            </HashRouter>), document.getElementById('root'));
             // If you want your app to work offline and load faster, you can change
             // unregister() to register() below. Note this comes with some pitfalls.
             // Learn more about service workers: http://bit.ly/CRA-PWA

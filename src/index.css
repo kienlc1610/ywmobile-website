@@ -1,5 +1,6 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~animate.css/animate.min.css';
+@import '~material-design-icons/iconfont/material-icons.css';
 @font-face{
   font-family: 'Bradley Hand ITC';
   font-size: normal;
@@ -38,11 +39,25 @@ body {
 }
 
 .custom-nav-item-link {
+  position: relative;
   color: #A0A0A0;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.custom-nav-item-link:hover {
-  color: #A0A0A0 !important;
+a.custom-nav-item-link:after
+ {
+  color: #A0A0A0;
+  text-decoration: none;
+  transition: all 0.4s;
+  content: ''
+}
+
+a.custom-nav-item-link:hover
+{
+  opacity: 1;
+  color: rgb(255, 192, 0) !important;
+  text-decoration: none;
 }
 
 li.active > a.custom-nav-item-link, .active {
@@ -58,22 +73,9 @@ li.active > a.custom-nav-item-link, .active {
   padding: 0 5px;
 }
 
-.footer-company-info > li > span {
+.footer-company-info li {
   font-size: small;
 
-}
-
-.home-page-bg {
-  position: relative;
-  bottom:0;
-  height: 800px;
-  background-image: url('./img/example-bg.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgb(40, 0, 0);
-  padding: 250px 125px 300px;
-  visibility: visible;
 }
 
 .sm-size {

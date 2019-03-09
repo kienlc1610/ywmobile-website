@@ -1,0 +1,74 @@
+.culture-section {
+    display: flex;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.culture-card {
+    position: relative;
+    height: 120px;
+    width: 222px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    box-sizing: border-box;
+    justify-content: center;
+    font-weight: 500;
+    transition: color .2s;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    font-size: 17px;
+}
+
+.culture-card:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+    height: 4px;
+    background-color: #ffb100;
+}
+
+.culture-card:hover ,.culture-card:focus {
+    background: white !important;
+    color: #ffb100 !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.culture-card:active {
+    border-color: transparent !important;
+    outline: transparent !important;
+    box-shadow: none !important;
+}
+
+.culture-card:hover::after {
+    width: 100%;
+    transition: width .2s ease-in;
+}
+
+.CultureAndBenefitComponent {
+    background-color: #f5f5f5;
+}
+
+.btn-outline-dark {
+    background-color: white;
+}
+
+.btn-outline-dark:active {
+    background-color: white;
+    border: none;
+    border-color: transparent;
+}
+
+.office-bg {
+    height: 100px;
+    background-color: aquamarine;
+}

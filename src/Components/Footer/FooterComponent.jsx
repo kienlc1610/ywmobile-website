@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './FooterComponent.css';
-import { HashRouter as Router, Route, Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 class FooterComponent extends Component {
   render() {
@@ -11,8 +11,8 @@ class FooterComponent extends Component {
             <nav className="nav footer-nav-link">
               <NavLink className="nav-link custom-nav-item-link" to="/" exact replace>Home</NavLink>
               <NavLink className="nav-link custom-nav-item-link" to="/company" activeClassName="active" exact replace>Company</NavLink>
-              <NavLink className="nav-link custom-nav-item-link" to="/business" activeClassName="active" exact replace>Business</NavLink>
-              <NavLink className="nav-link custom-nav-item-link" to="/recruit" activeClassName="active" exact replace>Recruit</NavLink>
+              <NavLink className="nav-link custom-nav-item-link" to="/business/all" activeClassName="active" exact replace>Business</NavLink>
+              <NavLink className="nav-link custom-nav-item-link" to="/recruit" activeClassName="active" exact replace>Careers</NavLink>
               <NavLink className="nav-link custom-nav-item-link" to="/cs" activeClassName="active" exact replace>CS</NavLink>
               <NavLink className="nav-link custom-nav-item-link" to="/cowork" activeClassName="active" exact replace>Co-work</NavLink>
               <NavLink className="nav-link custom-nav-item-link" to="/vietnam" activeClassName="active" exact replace>VietNam</NavLink>
@@ -28,30 +28,20 @@ class FooterComponent extends Component {
                   </div>
                   <div className="col ml-2">
                     <div className="row">
-                      <div className="col-auto">
-                        <p className="text-secondary">HQ</p>
-                      </div>
                       <div className="row">
-                        <p className="text-secondary">#301, Yoondo-building, 7, Yonggu-daero 2790beon-gil, Suji-gu, Yonging-si, Gyeonggi-do, Korea</p>
+                        <p className="text-secondary">H.O. | #301, Yoondo-building, 7, Yonggu-daero 2790beon-gil, Suji-gu, Yonging-si, Gyeonggi-do, Korea</p>
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-auto">
-                        <p className="text-secondary">HQ</p>
-                      </div>
                       <div className="row">
-                        <p className="text-secondary">#301, Yoondo-building, 7, Yonggu-daero 2790beon-gil, Suji-gu, Yonging-si, Gyeonggi-do, Korea</p>
+                        <p className="text-secondary">B.O. | #502, Yewon-building, 55-10, Tojeong-ro 31-gil, Mapo-gu, Seoul, Korea</p>
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-auto">
-                        <p className="text-secondary">HQ</p>
-                      </div>
                       <div className="row">
-                        <p className="text-secondary">#301, Yoondo-building, 7, Yonggu-daero 2790beon-gil, Suji-gu, Yonging-si, Gyeonggi-do, Korea</p>
+                        <p className="text-secondary">Spectpa building, 19A Cong Hoa, Phuong 12, Tan Binh, Ho Chi Minh, VietNam</p>
                       </div>
                     </div>
-                    <div className="w-100"></div>
                   </div>
                 </div>
               </li>

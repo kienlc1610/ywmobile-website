@@ -4,8 +4,12 @@ import logo from '../../img/logo.png';
 import $ from 'jquery';
 
 class HomeComponent extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
   componentDidMount() {
-    console.log(this.props)
+    console.log(this.props);
     $('.slogan').textillate({
       loop: false,
       in: {
@@ -30,12 +34,12 @@ class HomeComponent extends Component {
   render() {
     return (
       <div className="HomeComponent">
-        <div className="container-fluid home-page-bg main-content">
-          <div className="container">
-            <div className="row">
+        <div className="container-fluid home-page-bg">
+          <div className="d-flex flex-column main-content">
+            <div className="d-flex">
               <img className="rounded mx-auto d-block" src={logo} alt="YWMobile Logo" />
             </div>
-            <div className="row d-flex flex-column justify-content-center">
+            <div className="d-flex flex-column justify-content-center">
               <h1 className="text-center mx-auto text-color slogan">
                 <ul className="texts">
                   <li>We are ABCD by sincerity</li>

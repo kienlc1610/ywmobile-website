@@ -1,5 +1,5 @@
 .scroll-to-top-btn {
-    background-color: rgba(0, 201, 67, 0.884) !important;
+    background-color: rgba(255, 192, 0) !important;
     border:none !important;
     border-radius: 50%;
     height: 50px;
@@ -24,7 +24,43 @@
 
 .main-content {
     min-height: 500px;
-    position: relative;
     width: 100%;
-    margin-top: 4%;
+    margin-top: 5.1rem;
+    position: relative;
+    top: 25%;
+}
+
+.custom-card .card-title {
+    font-size: 32px;
+    line-height:1.5;
+    letter-spacing: 0.25rem;
+    font-weight: bold;
+    color: black !important;
+    margin-left: 2rem;
+    text-decoration:underline;
+}
+
+.custom-card .card-text {
+    font-size: 17px;
+    line-height:1.7;
+    letter-spacing: 0;
+    margin-left: 2rem;
+    padding-left: 3rem;
+}
+
+.custom-card {
+    border: none;
+}
+
+.product-title {
+    font-size: 47px;
+    line-height:1.5;
+    letter-spacing: 0.25rem;
+    font-weight: bold;
+    color: #ffb100 !important;
+    margin-left: 6rem;
+}
+
+.custom-card .card-img-top {
+    height: 25rem;
 }

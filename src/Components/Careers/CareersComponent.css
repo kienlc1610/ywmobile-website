@@ -1,0 +1,49 @@
+.top-img {
+    position: relative;
+    bottom: 0;
+    height: 30rem;
+    background-image: url('../../img/grow.jpg');
+    background-position: center 48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(40, 0, 0);
+    padding: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+.custom-thumbnail {
+    background-color: transparent;
+    border: none;
+    width: 6rem;
+}
+
+.custom-carousel {
+    position: relative;
+    bottom: 6rem;
+}
+
+.custom-carousel .carousel-item {
+    height: 200px;
+    background-color: white;
+}
+.custom-carousel .carousel-item > .carousel-caption {
+    color: black;
+}
+
+.custom-carousel .carousel-control-prev, .carousel-control-next {
+    color: #ffb100 !important;
+}
+
+.custom-carousel {
+    border-top: 6px solid #ffb100;
+}
+
+.custom-carousel {
+    font-size: 80px;
+    box-shadow: 3px 5px 40px rgba(0,0,0,.1)
+}
+
+.custom-icons {
+    font-size: 40px;
+}
